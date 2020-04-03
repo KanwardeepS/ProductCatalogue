@@ -1,0 +1,20 @@
+# Spring properties
+spring:
+  application:
+     name: products-service  # Service registers under this name
+
+error:
+  path: /error
+
+# HTTP Server
+server:
+  port: 8083   # HTTP (Tomcat) port
+  
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8082/eureka
+   
+
+
+
